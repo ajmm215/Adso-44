@@ -43,6 +43,15 @@ body {
     text-shadow: 2px 2px 2px rgba(37, 170, 231, 0.5);
 }
 
+.textdesc{
+    justify-content: center;
+    margin: 50px;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
 .titulo-seccion-prin{
     margin-right: 24px;
     color: #1f57b1;

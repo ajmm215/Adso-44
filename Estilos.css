@@ -1,0 +1,186 @@
+html{
+    font-size: 20px;
+    background-color: rgb(6, 58, 122);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.contenedorprin {
+    display: flex ;
+    flex-direction: row-reverse;
+    padding: 0;
+    margin: 0;
+}
+
+.deshv{
+    font-size: 38px;
+    text-align: center;
+    padding: auto;
+    margin: 0px;
+    text-shadow: 2px 2px 2px rgba(37, 170, 231, 0.5);
+}
+
+.descripcion{
+    background-color: rgb(6, 58, 122);
+    color: aliceblue;
+    text-align: left;
+    margin: 24px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.nombre{ 
+    border-bottom: 3px solid #bcc5d4;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    width: 100% ;
+    text-shadow: 2px 2px 2px rgba(37, 170, 231, 0.5);
+}
+
+.titulo-seccion-prin{
+    margin-right: 24px;
+    color: #1f57b1;
+    font-size: 24px; 
+    text-shadow: 2px 2px 2px rgba(7, 21, 32, 0.3);
+    border-bottom: 3px solid #285194;
+    
+    
+}
+
+.explab{
+    background-color: rgb(221, 226, 226);
+    padding-left: 32px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    line-height: 1.6;
+}
+
+
+.txorange{
+    color: rgb(61, 87, 158);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.timelab{
+    color: rgb(6, 52, 95);
+}
+
+
+.titulo-seccion-prin2{
+    margin-right: 24px;
+    color: #000307;
+    font-size: 24px; 
+    text-shadow: 2px 2px 2px rgba(7, 21, 32, 0.3);
+    border-bottom: 3px solid #285194;  
+}
+
+aside
+li::marker{
+    color: rgb(3, 61, 170);
+}
+
+aside{
+    background-color: #A9BED8;
+    padding: 24px;
+    
+}
+
+.foto{
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+    border-style: groove;
+    border-color: #285194;
+}
+
+.InfoComple{
+    padding-bottom: 50px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 2px rgba(7, 21, 32, 0.3);  
+}
+.dtcont{
+    padding-top: 50px;
+    font-size: 24px;
+    margin: 18px;
+    margin-bottom: 2px;
+    font-weight: bold; 
+    border-bottom: 3px solid #285194;
+}
+
+.subdatos{
+    line-height: 2;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.direccion{
+    white-space: nowrap;
+    line-height: 1.6;
+}
+
+.correo{
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.habtecn{
+    padding-top: 40px;
+    margin: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid #285194;
+}
+
+.habtec{
+    line-height: 1.8;
+    white-space: nowrap;
+}
+
+.compb{
+    line-height: 1.8;
+    padding-top: 40px;
+    margin: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid #285194;
+}
+.compbland{
+    line-height: 1.8;
+}
+
+.btnr{
+    margin: 570px 0 0 160px;
+    display: inline-block;
+    background-color: rgb(4, 31, 105);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0px 0px 0px
+     rgba(7, 45, 199, 0.03),
+    0px 7px 0px rgba(15, 39, 124, 0.7),
+    0px 8px 5px rgba(48, 0, 107, 0.5);
+    text-shadow: 0px 0px 5px rgba(51, 13, 134, 0.4);
+    
+}
+
+.btnr:hover{
+    background-color: rgb(34, 18, 175);
+    box-shadow: 
+    inset 0px 0px 8px
+    rgba(7, 45, 199, 0.03),
+    0px 7px 0px rgba(2, 22, 95, 0.7),
+    0px 8px 5px rgba(16, 1, 36, 0.5);
+     text-shadow: 0px 0px 5px rgba(51, 13, 134, 0.4);
+}
+
+.btnr:active{
+    transform: translateY(7px);
+    box-shadow: 
+    inset 1px 2px 8px rgba(0, 0, 0, 0.3);
+}

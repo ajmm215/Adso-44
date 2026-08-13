@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="acti6.css">
+    <title>Estructuras de almacenamiento</title> 
+</head>
+
+<body>
+    <h1>Sneakers Online</h1>
+
+    <main class="contenido">
+
+        <!--Carrusel -->
+        <div class="carrusel">
+
+            <div class="carrusel-contenedor">
+
+                <div class="producto activo">
+                    <img src="Imagenes/1.jpg">                  
+                </div>
+
+                <div class="producto izquierda">
+                    <img src="Imagenes/2.jpg">
+                </div>
+
+                <div class="producto derecha">
+                    <img src="Imagenes/3.jpg">                                   
+                </div>
+
+                <div class="producto">
+                    <img src="Imagenes/4.jpg">
+                </div>
+
+
+                <div class="producto">
+                    <img src="Imagenes/5.jpg">                   
+                </div>
+
+            </div>
+
+            <button class="btn prev">←</button>
+            <button class="btn next">→</button>
+
+        </div>   
+
+        <!--Tarjeta del producto-->
+        <div class="tarjeta-producto">
+
+            <h2 id="nombreProducto"> NIke Air Jordan 1 Retro High Flyknit "Wolf Grey"</h2>
+
+            <p class="descripcion" id="descripcionProducto">Zapatillas clásicas que combinan el diseño tradicional con la tecnología moderna de tejido,
+            destacando por ser flexibles, ligeras y transpirables.</p>
+
+            <p class="precio" id="precioProducto">$1.600.000 COP</p>
+
+            <div class="tallas" id="tallasProducto">
+                <span>36</span>
+                <span>37</span>
+                <span>38</span>
+                <span>39</span>
+                <span>40</span>
+            </div>
+
+            <div class="boton-contenedor">
+
+                <button class="ver-mas">Ver más</button>
+                <button class="btn-cantidad" id="btn-menos">-</button>
+                <span id="cantidad-numero">1</span>
+                <button class="btn-cantidad" id="btn-mas">+</button>
+                <button class="carrito">🛒</button>
+          </div>
+
+    </main>
+
+    <div>
+        
+        <h2 class="titulo">Creadores de la pagina</h2>
+
+        <div class="usuarios-contenedor">
+            <div class="creador-perfil">
+                <img class="foto-creador" src="Imagenes/Andres.jpg" >
+                <div class="info-creador">
+                    <h3>Nombre: <span>Andres Julian Morales</span></h3>
+                    <h4>Correo: <span>ajmm215@gmail.com</span></h4>
+                    <p>Ciudad: <span>Bogota, Colombia</span></p>
+                    <p>Rol: <span>Desarrollador Web</span></p>
+                    <button class="btn-contacto">Ver más</button>
+                </div>
+            </div>
+
+            <div class="creador-perfil">
+                <img class="foto-creador" src="Imagenes/Farid.jpg" >
+                <div class="info-creador">
+                    <h3>Nombre: <span>Farid Gomez</span></h3>
+                    <h4>Correo: <span>faridgomez@gmail.com</span></h4>
+                    <p>Ciudad: <span>Bogota, Colombia</span></p>
+                    <p>Rol: <span>Mercaderista</span></p>
+                    <button class="btn-contacto">Ver más</button>
+                </div>
+            </div>
+
+            <div class="creador-perfil">
+                <img class="foto-creador" src="Imagenes/Ana.jpg" >
+                <div class="info-creador">
+                    <h3>Nombre: <span>Ana Ramirez</span></h3>
+                    <h4>Correo: <span>anaramirez@gmail.com</span></h4>
+                    <p>Ciudad: <span>Bogota, Colombia</span></p>
+                    <p>Rol: <span>Diseñadora Gráfica</span></p>
+                    <button class="btn-contacto">Ver más</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <script src="script.js"></script>
+   
+</body>
+    
+    <br>
+  <a href="/index.html" class="btnr">Regresar al inicio</a>
+
+</html>

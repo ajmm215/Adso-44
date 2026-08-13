@@ -1,0 +1,71 @@
+html{
+  font-size: 20px;
+  background-color: #eaf6ff; /* Un azul muy claro para el fondo */
+  margin: 30px 400px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  color: #0d2c40; /* Un azul oscuro para el texto principal */
+  background: white;
+  border-radius: 24px; 
+  box-shadow: 0 12px 30px rgba(0, 80, 150, 0.3); /* Sombra azulada */
+ 
+}
+
+
+.evidencia{
+    line-height: 2;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #005a9c; /* Título en un azul más intenso */
+}
+
+
+/* Botones*/
+a {
+  max-width: 600px;
+  background-color: #1565c0; /* Azul principal para los botones */
+  color: white;
+  border: none;
+  padding: 1px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin: 5px auto;
+  box-shadow: 
+  inset 0px 0px 0px
+  rgba(10, 60, 140, 0.03),
+  0px 7px 0px rgba(10, 50, 130, 0.7),
+  0px 8px 5px rgba(0, 40, 100, 0.5);
+  text-shadow: 0px 0px 5px rgba(0, 30, 90, 0.4);
+  
+  
+
+}
+
+a:hover{
+  transform: translateY(-3px);
+  background-color: #004c8c; /* Un azul más oscuro para el hover */
+  box-shadow: 
+  inset 0px 0px 8px
+  rgba(10, 60, 140, 0.03),
+  0px 7px 0px rgba(0, 30, 80, 0.7),
+  0px 8px 5px rgba(0, 20, 60, 0.5);
+  text-shadow: 0px 0px 5px rgba(0, 30, 90, 0.4);
+  
+}
+
+a:active{
+  transform: translateY(7px);
+  box-shadow: 
+  inset 1px 2px 8px rgba(0, 20, 50, 0.5);
+}

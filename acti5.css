@@ -1,0 +1,507 @@
+html{
+    font-size: 20px;
+    }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center
+  }
+
+  .contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  
+/*tarjetas */
+.card{
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0, 0.2);
+    border: 1px solid rgb(5, 0, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.18);
+}
+
+
+.card button{
+    background-color: rgb(68, 68, 220);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+
+.card button:hover{
+    background-color: rgb(5, 5, 177);
+}
+
+
+/* boton ver mas*/
+.btn{
+    display: inline-block;
+    background-color: rgb(0, 67, 251);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0px 0px 0px
+    rgba(7, 45, 199, 0.03),
+    0px 7px 0px rgba(15, 39, 124, 0.7),
+    0px 8px 5px rgba(48, 0, 107, 0.5);
+    text-shadow: 0px 0px 5px rgba(51, 13, 134, 0.4);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.btn:hover{
+    background-color: rgb(17, 17, 169);
+    box-shadow: 
+    inset 0px 0px 8px
+    rgba(7, 45, 199, 0.03),
+    0px 7px 0px rgba(2, 22, 95, 0.7),
+    0px 8px 5px rgba(16, 1, 36, 0.5);
+    text-shadow: 0px 0px 5px rgba(51, 13, 134, 0.4);
+
+    transform: scale(1.03);
+}
+
+
+.btn:active{
+    transform: translateY(7px);
+    box-shadow: 
+    inset 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/* card1*/
+.card1{
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    width: 220px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0, 0.2);
+    border: 1px solid rgb(55, 90, 102);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 25px rgba(86, 167, 255, 0.25);
+}
+
+
+.card1 button{
+    background-color: rgb(96, 96, 136);
+    color: rgb(0, 255, 238);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.card1 button:hover{
+    background-color: rgb(5, 5, 177);
+    color: white;
+}
+
+
+/*btn1*/
+.btn1{
+    display: inline-block;
+    background-color: rgb(236, 224, 234);
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0px 0px 0px
+    rgba(199, 68, 7, 0.03),
+    0px 4px 0px rgba(204, 211, 203, 0.7),
+    0px 4px 5px rgba(153, 159, 155, 0.5);
+    text-shadow: 0px 0px 5px rgba(140, 147, 143, 0.4);
+    font-weight: bold;
+    border: 1px solid rgb(190, 190, 190);
+    transition: all 0.3s ease;
+}
+
+
+.btn1:hover{
+    background-color: rgb(78, 181, 250);
+    color: rgb(31, 2, 72);
+    box-shadow: 
+    inset 0px 0px 4px
+    rgba(234, 17, 237, 0.03),
+    0px 7px 0px rgba(102, 178, 228, 0.7),
+    0px 8px 5px rgba(95, 215, 241, 0.5);
+    text-shadow: 0px 0px 5px rgba(33, 146, 217, 0.4);
+    transform: scale(1.04);
+}
+
+.btn1:active{
+    transform: translateY(7px);
+    box-shadow: 
+    inset 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/*card2*/
+.card2{
+    font-weight: 550;
+    color: rgb(20, 11, 0);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    width: 220px;
+    background-color: rgb(8, 182, 133);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 8px rgba(0,0,0, 0.2);
+    border-left: 4px solid rgba(5, 74, 59, 0.262);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card2:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 22px rgba(0, 110, 80, 0.35);
+}
+
+
+.card2 button{
+    background-color: rgb(68, 68, 220);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* agregado */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.card2 button:hover{
+    background-color: rgb(5, 5, 177);
+}
+
+
+
+/*btn2*/
+.btn2{
+    display: inline-block;
+    background-color: rgb(12, 222, 68);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0px 0px 0px
+    rgba(199, 68, 7, 0.03),
+    0px 7px 0px rgba(24, 124, 15, 0.7),
+    0px 8px 5px rgba(0, 107, 32, 0.5);
+    text-shadow: 0px 0px 5px rgba(13, 134, 59, 0.4);
+
+    /* agregado */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.btn2:hover{
+    background-color: rgb(61, 236, 198);
+    color: black;
+    box-shadow: 
+    inset 0px 0px 8px
+    rgba(199, 7, 7, 0.03),
+    0px 7px 0px rgba(2, 95, 72, 0.7),
+    0px 8px 5px rgba(1, 36, 28, 0.5);
+    text-shadow: 0px 0px 5px rgba(13, 134, 102, 0.4);
+
+    /* agregado */
+    transform: scale(1.04);
+}
+
+
+.btn2:active{
+    transform: translateY(7px);
+    box-shadow: 
+    inset 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/*card3*/
+.card3{
+    font-weight: 550;
+    color: rgb(43, 3, 61);
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    width: 220px;
+    background-color: rgba(236, 5, 189, 0.604);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0, 0.2);
+
+    /* agregado */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card3:hover{
+    transform: translateY(-6px) rotate(-1deg);
+    box-shadow: 0px 12px 24px rgba(140, 0, 110, 0.35);
+}
+
+
+.card3 button{
+    background-color: rgb(1, 1, 199);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* agregado */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.card3 button:hover{
+    background-color: rgb(5, 5, 177);
+}
+
+
+
+/*btn3*/
+.btn3{
+    display: inline-block;
+    background-color: rgb(236, 224, 234);
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0px 0px 0px
+    rgba(199, 68, 7, 0.03),
+    0px 4px 0px rgba(204, 211, 203, 0.7),
+    0px 4px 5px rgba(153, 159, 155, 0.5);
+    text-shadow: 0px 0px 5px rgba(140, 147, 143, 0.4);
+
+    /* agregado */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.btn3:hover{
+    background-color: rgb(85, 3, 85);
+    color: rgb(255, 252, 255);
+    box-shadow: 
+    inset 0px 0px 4px
+    rgba(234, 17, 237, 0.03),
+    0px 7px 0px rgba(112, 16, 123, 0.7),
+    0px 8px 5px rgba(137, 18, 142, 0.5);
+    text-shadow: 0px 0px 5px rgba(196, 33, 217, 0.4);
+
+    /* agregado */
+    transform: scale(1.04);
+}
+
+
+.btn3:active{
+    transform: translateY(7px);
+    box-shadow: 
+    inset 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* card4*/
+.card4{
+    font-weight: 550;
+    color: rgb(200, 220, 219);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    width: 220px;
+    background-color: rgb(87, 107, 107);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0, 0.2);
+
+    /* agregado */
+    border-top: 5px solid rgb(220, 228, 227);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card4:hover{
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 20px rgba(58, 72, 72, 0.35);
+}
+
+
+.card4 button{
+    background-color: rgb(96, 96, 136);
+    color: rgb(0, 255, 238);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* agregado */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.card4 button:hover{
+    background-color: rgb(5, 5, 177);
+    color: white;
+}
+
+
+
+/*btn4*/
+.btn4{
+    display: inline-block;
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 
+    inset 0px 0px 0px
+    rgba(199, 68, 7, 0.03),
+    0px 7px 0px rgba(204, 211, 203, 0.7),
+    0px 8px 5px rgba(153, 159, 155, 0.5);
+    text-shadow: 0px 0px 5px rgba(140, 147, 143, 0.4);
+
+    /* agregado */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.btn4:hover{
+    background-color: rgb(123, 150, 143);
+    color: rgb(254, 253, 253);
+    box-shadow: 
+    inset 0px 0px 8px
+    rgba(199, 7, 7, 0.03),
+    0px 7px 0px rgba(195, 199, 198, 0.7),
+    0px 8px 5px rgba(230, 235, 234, 0.5);
+    text-shadow: 0px 0px 5px rgba(138, 145, 143, 0.4);
+
+    /* agregado */
+    transform: scale(1.04);
+}
+
+
+.btn4:active{
+    transform: translateY(7px);
+    box-shadow: 
+    inset 1px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.imgpro{
+    width: 200px;
+    border-radius: 10px;
+   
+}
+
+/* boton de regresar*/
+
+.btnr{
+    position: relative;
+    display: inline-block;
+    padding: 14px 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: rgb(0, 0, 0);
+    border: 2px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.35s ease;
+    box-shadow:
+        0 0 10px rgba(0, 255, 255, 0.25),
+        0 0 20px rgba(140, 0, 255, 0.15);
+}
+
+.btnr::before{
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(90deg, #00f7ff, #8a2eff, #ff00c8, #00f7ff);
+    background-size: 300%;
+    border-radius: 14px;
+    z-index: -2;
+    transition: 0.4s;
+}
+
+.btnr::after{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #090909;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.btnr:hover{
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow:
+        0 0 12px rgba(0, 255, 255, 0.6),
+        0 0 25px rgba(138, 46, 255, 0.5),
+        0 0 40px rgba(255, 0, 200, 0.45);
+}
+
+.btnr:hover::before{
+    animation: neonBorde 2s linear infinite;
+    filter: blur(1px);
+}
+
+.btnr:active{
+    transform: translateY(1px) scale(0.98);
+    box-shadow:
+        0 0 8px rgba(0, 255, 255, 0.35),
+        0 0 18px rgba(138, 46, 255, 0.3);
+}
+
+@keyframes neonBorde{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 300% 50%;
+    }
+}
+
